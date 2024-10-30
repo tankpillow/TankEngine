@@ -1,3 +1,4 @@
+# CMake-Ignores
 CMakeLists.txt.user
 CMakeCache.txt
 CMakeFiles
@@ -10,3 +11,15 @@ compile_commands.json
 CTestTestfile.cmake
 _deps
 CMakeUserPresets.json
+CMakeDoxyfile.in
+CMakeDoxygenDefaults.cmake
+
+# cland-Ignores
+.cache/
+
+# macOS-Ignores
+.DS_Store
+
+# Project-Ignores
+bin/
+lib/
